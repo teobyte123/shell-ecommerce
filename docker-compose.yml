@@ -1,0 +1,12 @@
+services:
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "8081:8081"
+
+  product-service:
+    build: ./product-service
+    ports:
+      - "8082:8082"
+      
+      
